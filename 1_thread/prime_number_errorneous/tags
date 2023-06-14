@@ -1,0 +1,16 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CXX	Makefile	/^CXX = c++$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS = -Wall -Wextra -Werror -std=c++11$/;"	m
+IsPrimeNumber	main.cpp	/^bool IsPrimeNumber(int number)$/;"	f
+NAME	Makefile	/^NAME = a.out$/;"	m
+OBJS	Makefile	/^OBJS = $(SRCS:.cpp=.o)$/;"	m
+PrintNumbers	main.cpp	/^void PrintNumbers(const vector<int>& primes)$/;"	f
+SRCS	Makefile	/^SRCS = main.cpp$/;"	m
+g_maxCount	main.cpp	/^const int g_maxCount = 150000;$/;"	v
+g_threadCount	main.cpp	/^const int g_threadCount = 4;$/;"	v
+main	main.cpp	/^int main(void)$/;"	f

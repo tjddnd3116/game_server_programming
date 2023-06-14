@@ -1,0 +1,30 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CXX	Makefile	/^CXX = c++$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS = -Wall -Wextra -Werror -std=c++11$/;"	m
+CriticalSection	CriticalSection.cpp	/^CriticalSection::CriticalSection()$/;"	f	class:CriticalSection
+CriticalSection	CriticalSection.hpp	/^class CriticalSection$/;"	c
+CriticalSectionLock	CriticalSectionLock.cpp	/^CriticalSectionLock::CriticalSectionLock(CriticalSection& pCritSec)$/;"	f	class:CriticalSectionLock
+CriticalSectionLock	CriticalSectionLock.hpp	/^class CriticalSectionLock$/;"	c
+CriticalSectionLock_hpp	CriticalSectionLock.hpp	/^#define CriticalSectionLock_hpp$/;"	d
+CriticalSection_hpp	CriticalSection.hpp	/^#define CriticalSection_hpp$/;"	d
+Lock	CriticalSection.cpp	/^CriticalSection::Lock()$/;"	f	class:CriticalSection
+NAME	Makefile	/^NAME = a.out$/;"	m
+OBJS	Makefile	/^OBJS = $(SRCS:.cpp=.o)$/;"	m
+SRCS	Makefile	/^SRCS = main.cpp\\$/;"	m
+Unlock	CriticalSection.cpp	/^CriticalSection::Unlock()$/;"	f	class:CriticalSection
+a	main.cpp	/^int a;$/;"	v
+a_mutex	main.cpp	/^CriticalSection a_mutex;$/;"	v
+b	main.cpp	/^int b;$/;"	v
+b_mutex	main.cpp	/^CriticalSection b_mutex;$/;"	v
+c	main.cpp	/^int c;$/;"	v
+c_mutex	main.cpp	/^CriticalSection c_mutex;$/;"	v
+m_mutex	CriticalSection.hpp	/^			pthread_mutex_t m_mutex;$/;"	m	class:CriticalSection
+m_pCritSec	CriticalSectionLock.hpp	/^			CriticalSection* m_pCritSec;$/;"	m	class:CriticalSectionLock
+main	main.cpp	/^int main(void)$/;"	f
+~CriticalSection	CriticalSection.cpp	/^CriticalSection::~CriticalSection()$/;"	f	class:CriticalSection
+~CriticalSectionLock	CriticalSectionLock.cpp	/^CriticalSectionLock::~CriticalSectionLock()$/;"	f	class:CriticalSectionLock
